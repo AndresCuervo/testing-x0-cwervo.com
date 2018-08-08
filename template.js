@@ -20,7 +20,7 @@ module.exports = ({
 ${meta.map(({ name, content }) => `<meta name='${name}' content='${content}'>`).join('\n')}
 ${links.map(({ rel, href }) => `<link rel='${rel}' href='${href}' />`).join('\n')}
 <style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif}</style>
-<style>body { background-color: #2EAFAC; } nav { list-style: none; } nav ul { padding-left: 0; } nav li { display: inline-block; margin-right: 1em; }</style>
+<style>body { background-color: #2EAFAC; } a { color: blue; } nav { list-style: none; } nav ul { padding-left: 0; } nav li { display: inline-block; margin-right: 1em; }</style>
 ${css}
 </head>
 <div id=root>${html}</div>
